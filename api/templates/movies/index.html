@@ -1,0 +1,8 @@
+<h1>Hola mundo TEMPLATES</h1>
+
+<h2>{{movies}}</h2>
+
+{%for movie in movies%}
+    <h3>{{movie.id}} {{movie.name}}</h3>
+    <img src="/media/{{movie.poster}}">
+{% endfor%}

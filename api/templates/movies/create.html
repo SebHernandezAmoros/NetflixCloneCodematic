@@ -1,0 +1,9 @@
+<h1>Formulario para ingresar peliculas</h1>
+<form action="/api/movies/store" enctype="multipart/form-data" method="post">
+    <label>Ingrese Titulo</label>
+    <input for="Titulo" type="text" name="Titulo">
+    <label>Seleccione imagen</label>
+    <input type="file" name="image" accept=".png, .jpg, .jpeg">
+
+    <button>Guardar</button>
+</form>
